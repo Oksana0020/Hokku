@@ -61,28 +61,6 @@ The GA evaluates each poem using penalties such as:
 7. Repeat for many generations  
 
 ---
-
-## Parameters
-
-Example settings:
-
-```python
-population_size = 1000
-generations = 300
-child_rate = 0.6
-mutation_rate = 0.15
-
----
-
-## Example output
-
-```python
-old moon softly
-misty river drifts —
-spring wind lantern
-
----
-
 ## Results
 
 Early versions reached cost = 0 easily
@@ -91,10 +69,9 @@ Final poems were close to valid hokku
 GA performed well on creative constrained generation
 AI can write poems but not as soul-touching as humans are!
 
-
 ---
 
-##Future Improvements may include:
+## Future Improvements may include:
 
 Larger vocabulary.
 Variety of grammar rules.
@@ -104,4 +81,23 @@ Compare generated poems against real hokku poems using similarity or language mo
 
 ---
 
-Project was created as part of Artificial Intelligence (AI) coursework.
+## Parameters
+
+Example settings:
+
+population_size = 1000
+generations = 300
+child_rate = 0.6
+mutation_rate = 0.15
+
+---
+
+## Example output
+
+old moon softly
+misty river drifts —
+spring wind lantern
+
+---
+
+### Project was created as part of Artificial Intelligence (AI) coursework.
